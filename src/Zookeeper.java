@@ -17,12 +17,12 @@ public class Zookeeper extends User{
 	  System.out.println("Enter the details: ");
 	  input = new Scanner(System.in);
 	  name = input.nextLine();
-      age = input.nextInt();
-      input.nextLine();
-      sound = input.nextLine();
-      weight = input.nextInt();
-      animal = new Animal(name,age,sound,weight);
-      cage.addAnimal(animal);
+          age = input.nextInt();
+          input.nextLine();
+          sound = input.nextLine();
+          weight = input.nextInt();
+          animal = new Animal(name,age,sound,weight);
+          cage.addAnimal(animal);
   }
   public void removeAnimal()
   {

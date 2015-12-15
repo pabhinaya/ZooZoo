@@ -14,7 +14,7 @@ public class Cage {
 	 while(it.hasNext())
 	 {
 		 Animal animal = (Animal)it.next();
-		 System.out.println("Name:" + animal.name + "Age:" + animal.age + "Sound: " + animal.sound + "Weight:" + animal.weight );
+		 System.out.println("Name:" + animal.getName() + "Age:" + animal.getAge() + "Sound: " + animal.getSound() + "Weight:" + animal.getWeight() );
 		 
 	 }	 
   }
